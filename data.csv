@@ -1,4 +1,4 @@
-model,brand,height,width,depth,screen_size,launch_year,operating_system,manufacturer_support,community_support,cpu,ram,battery
+model,brand,height,width,depth,screen-size,launch-year,operating-system,manufacturer-support,community-support,cpu,ram,battery
 iPhone SE (2016),Apple,123.8,58.6,7.6,4,2016,iOS 15.8.5,No,No,Apple A9,2,1624
 iPhone 6S,Apple,138.3,67.1,7.1,4.7,2015,iOS 15.8.5,No,No,Apple A9,2,1715
 iPhone 7,Apple,138.3,67.1,7.1,4.7,2016,iOS 15.8.5,No,No,Apple A10 Fusion,2,1960

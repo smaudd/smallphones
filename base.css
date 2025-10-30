@@ -1,0 +1,90 @@
+.device-card {
+    margin-bottom: 1rem;
+    border: 1px solid var(--pico-border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    background: var(--pico-background-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.device-card h3 {
+    margin-top: 0;
+    color: var(--pico-primary);
+}
+
+.dimensions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dimension-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e9ecef;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.specs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.spec {
+    font-size: 0.9rem;
+}
+
+.spec strong {
+    color: var(--pico-muted-color);
+}
+
+#device-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: var(--pico-grid-column-gap);
+}
+
+#filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#filter-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#filter-dropdown-container {
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#filter-dropdown-container label {
+    display: flex;
+    flex-direction: column;
+}
+
+#sort-container {
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+    margin-bottom: 1rem;
+}
+
+[data-attribute="ram"],
+[data-attribute="cpu"] {
+    text-transform: uppercase;
+}
+
+div[class^="-button"] {
+    padding: 1px;
+}
